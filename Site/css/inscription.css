@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+div.register {
+    margin-top: -10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.register p:first-child {
+    padding: 5px;
+    margin: 10px;
+    border : 1px  #545454;
+    border-radius: 100%;
+    text-align: center;
+    width: 35px;
+    cursor: pointer;
+    background-color: #DADADA;
+    color: #7A7A7A;
+}
+
+.header {
+    background-color: #F4F4F4;
+    color : #000000;
+}
+
+div.header p:first-child {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:larger;
+}
+
+div.text {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+div.text input {
+    background-color: #FAFAFA;
+    border-radius: 8%;
+}
+
+div.register2 button {
+    background-color: #FF6B00;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 7%;
+}
+
+.message {
+    background-color: #FF6B00;
+	margin: 5px;
+	font-size : 1.5em;
+}

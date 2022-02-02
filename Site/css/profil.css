@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&family=Montserrat:ital,wght@1,200;1,400&display=swap');
+
+.profile {
+	margin-top: 5%;
+	display: flex;
+	align-items: center;
+	width: 175px;
+	height: 175px;
+}
+
+.profile img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 3px solid #151728;
+	object-fit: cover;
+}
+
+
+.Pseudo p {
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+	font-size: xx-large;
+	text-shadow: 1px 0 0 #000000, -1px 0 0 #000000, 0 1px 0 #000000, 0 -1px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
+
+/* Différentes couleurs en fonction du rôle de la personne */
+
+.Statut-e {
+	background: #27B1FF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 6px;
+	border: 5px solid darkblue;
+	height: 30px;
+	width: 70px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Statut-s {
+	background: #FF6B00;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 6px;
+	height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Statut-a {
+	background: #37D046;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 6px;
+	height: 50px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.Statut-p {
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 23px;
+}
+
+.boutonModif {
+	background: #DDDDDD;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	width: 156px;
+	height: 37px;
+	left: 1269px;
+	top: 217px;
+	text-decoration: none;
+
+}
+
+.Settings {
+	width: 37px;
+	height: 37px;
+}
+
+.Publication {
+	width: 184px;
+	height: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.Amies {
+	width: 174px;
+	height: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.Bio {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.publications {
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 23px;
+	letter-spacing: -0.333333px;
+	color: #000000;
+}
+
+
+nav {
+	display: flex;
+	overflow: hidden;
+	overflow-x: auto;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+
+.nav-item {
+	color: #83818c;
+	font-family: arial, sans-serif;
+	padding: 20px;
+	margin: 0 6px;
+	position: relative;
+}
+
+.nav-item:before {
+	content: "";
+	position: absolute;
+	bottom: -6px;
+	background-color: #dfe2ea;
+	height: 5px;
+	width: 100%;
+	border-radius: 8px 8px 0 0;
+	left: 0;
+	transition: .3s;
+}
+
+.nav-item:not(.is-active):hover:before {
+	bottom: 0;
+}
+
+.nav-item:not(.is-active):hover {
+	color: #333;
+}
+
+.nav-indicator {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 5px;
+	transition: .4s;
+	border-radius: 8px 8px 0 0;
+}
+
+.boutonSabo {
+	background-color: #a4a6b6;
+	color: white;
+	padding: 8px;
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	cursor: pointer;
+	border: #000000;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+.boutonDesabo {
+	background-color: #705959;
+	color: white;
+	padding: 8px;
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	cursor: pointer;
+	border: #000000;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banniere {
+	margin-top: -10%;
+	z-index: 0;
+	position: absolute;
+	left:0px;
+	width: 100%;
+    height: 341px;
+    object-fit: cover;
+}
+
+.hidden {
+	display: none;
+}
+
+body {
+	overflow-y: scroll;
+}
+
+.Modif-pro {
+	text-decoration: none;
+}

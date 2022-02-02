@@ -1,0 +1,21 @@
+html,
+body {
+    height: 100%;
+}
+
+div#page {
+    width: 60%;
+    margin: 0 auto;
+    min-height: 90%;
+}
+
+#map { 
+    height: 85%;
+    width: 96%;
+    justify-content: center;
+    flex-grow: 3;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid rgba(102, 67, 3, 0.808);
+
+}

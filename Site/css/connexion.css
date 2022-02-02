@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+div#page {
+    width: 60%;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.button {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    outline: black;
+    text-align: center;
+    color: black;
+    font: bold 14px "Josefin Sans";
+}
+
+.GAKALL {
+    font: bold 36px "Josefin Sans";
+    color: #FF6B00;
+}
+
+.Sport {
+    font: bold 36px "Josefin Sans";
+    color: black;
+}
+
+.textnoire {
+    font: bold 13px "Josefin Sans";
+    color: black;
+    text-align: center;
+}
+
+.textorange {
+    font: bold 13px "Josefin Sans";
+    color: #FF6B00;
+    text-align: center;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.login--form {
+    height: 536px;
+    width: 416px;
+}
